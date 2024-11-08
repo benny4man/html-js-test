@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+main button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 36px;
+    background-color: rgb(127, 221, 127);
+    transition:  background-color 0.3 ease;
+    cursor: pointer;
+}
+
+main button:hover{
+    background-color: rgb(61, 136, 61);
+}
